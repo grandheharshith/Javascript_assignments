@@ -4,8 +4,7 @@ function BMICalculator(mass, height) {
     if (mass<=0 || height<=0){
         return "INVALID INPUT"
     }
-    let BMI=mass/(height**2)
+    let BMI=mass/Math.pow(height,2)
     return BMI
 }
-
 module.exports = BMICalculator;
