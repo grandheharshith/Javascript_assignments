@@ -15,7 +15,7 @@ function multiplyByN(arr, n) {
         Return an array whose elements are multiplied by n
         Example
             Input: [1,3,4,55], 3
-            Output: [3,9,13,165]
+            Output: [3,9,12,165]
         Write you code below
     */
 }
