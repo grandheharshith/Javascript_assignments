@@ -81,7 +81,7 @@ function showAll(){
     let output = `<table> <tr> <th>Id</th> <th>User Id</th> <th>Description</th> <th>Status</th> </tr>`;
     fullData.forEach(function(todo) {
         output +=`<tr data-tag="${todo.completed}"> <td>${todo.id}</td> <td>${todo.userId}</td> <td>${todo.title}</td> <td>${todo.completed ? "Completed" : "Pending...."}</td> </tr>`;
-    });
+    }); 
     output += `</table>`;
     fetchedTodos.innerHTML = output;
 }
